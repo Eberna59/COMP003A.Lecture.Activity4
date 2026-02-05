@@ -16,6 +16,19 @@
 
             Console.WriteLine();
 
+            // Section B: do while Loops
+
+            int attempt = 1;
+
+            do
+            {
+                Console.WriteLine($"Attempt {attempt}");
+                attempt++;
+            }
+            while (attempt <= 3);
+
+            Console.WriteLine();
+
 
 
             

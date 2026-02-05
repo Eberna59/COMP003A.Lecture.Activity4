@@ -6,6 +6,18 @@
         {
             // Section A: While Loop
 
+            int taskNumber = 1;
+
+            while (taskNumber <= 5)
+            {
+                Console.WriteLine($"Task {taskNumber} completed");
+                taskNumber++;
+            }
+
+            Console.WriteLine();
+
+
+
             
         }
     }
